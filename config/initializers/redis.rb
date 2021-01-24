@@ -1,0 +1,1 @@
+$redis = Redis::Namespace.new('lendesk', :redis => Redis.new)
